@@ -10,4 +10,4 @@ JS(iesācējem) kursam elektroniskā klade
 >citats   
 `#RRGGBB`krāsas  
 [tests3](file:///C:/Users/ILGVARS%20SMITS/Downloads/macibasJava/tests3.html)  
-C:\Users\ILGVARS SMITS\Downloads\macibasJava\bildes\1547365376_1.jpg
+[bilde](C:\Users\ILGVARS SMITS\Downloads\macibasJava\bildes\1547365376_1.jpg)
