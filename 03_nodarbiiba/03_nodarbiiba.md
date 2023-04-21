@@ -11,5 +11,5 @@
 
 
 [^1]: [forms](https://www.w3schools.com/html/html_forms.asp)  
-[^2]: [elements] (https://www.w3schools.com/html/html_form_elements.)  
-[^3]: [iput](https://www.w3schools.com/html/html_form_input_types.asp)
+[^2]: [elements](https://www.w3schools.com/html/html_form_elements.)  
+[^3]: [input](https://www.w3schools.com/html/html_form_input_types.asp)
