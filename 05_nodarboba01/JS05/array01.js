@@ -11,3 +11,8 @@ var x1 = 1, x2 = 2, x3 = 3;
                     [89, 96, 45]];
         console.log(coord[0]);
         console.log(coord[0][0]);
+
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+        document.getElementById("demo1").innerHTML = fruits;
+        fruits.push("Kiwi");
+        document.getElementById("demo2").innerHTML = fruits;
