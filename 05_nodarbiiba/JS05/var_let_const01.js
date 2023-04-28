@@ -23,4 +23,8 @@ console.log("Izdruka pirms bloka, mainīgā a vērtība - " + a);
       //b = b*b;
       //console.log("Izdruka pēc bloka, mainīgā b vērtība - " + b);
 
-      
+ 
+      let x = 5;
+let y = 5;
+let z = 6;
+console.log(getElementById = (x == y) + "<br>" + (x == z));
