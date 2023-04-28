@@ -11,8 +11,8 @@ var x1 = 1, x2 = 2, x3 = 3;
                     [89, 96, 45]];
         console.log(coord[0]);
         console.log(coord[0][0]);
-
-        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//ievieto jaunu elementu rinda
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
         document.getElementById("demo1").innerHTML = fruits;
         fruits.push("Kiwi");
         document.getElementById("demo2").innerHTML = fruits;
@@ -24,9 +24,32 @@ document.getElementById("demo3").innerHTML = points[0];
 const cars = ["Saab", "Volvo", "BMW"];
 cars[0] = "Opel";
 document.getElementById("demo4").innerHTML = cars;
-
-        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
         document.getElementById("rinda").innerHTML = fruits.toString();
-
-        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+//sadala virkni ar izveleto zimi
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
 document.getElementById("demo *").innerHTML = fruits.join(" * ");
+//noņem pedejo elementu
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo5").innerHTML = fruits;
+fruits.pop();
+document.getElementById("demo6").innerHTML = fruits;
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo7").innerHTML = fruits.shift();
+document.getElementById("demo8").innerHTML = fruits;
+// masiva apvienošana
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+const myChildren = myGirls.concat(myBoys);
+
+document.getElementById("demo9").innerHTML = myChildren;
+
+//ievieto papildus elementus
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo10").innerHTML = fruits;
+
+fruits.splice(2, 0, "Lemon", "Kiwi");
+document.getElementById("demo11").innerHTML = fruits;
+
