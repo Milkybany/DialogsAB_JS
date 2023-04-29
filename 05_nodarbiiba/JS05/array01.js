@@ -11,15 +11,7 @@ var x1 = 1, x2 = 2, x3 = 3;
                     [89, 96, 45]];
         console.log(coord[0]);
         console.log(coord[0][0]);
-//ievieto jaunu elementu rinda
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-        document.getElementById("demo1").innerHTML = fruits;
-        fruits.push("Kiwi");
-        document.getElementById("demo2").innerHTML = fruits;
 
-//const points = new Array(60, 50, 1, 5, 25, 10);
-const points = [70, 100, 1, 5, 25, 10];
-document.getElementById("demo3").innerHTML = points[0];  
 
 const cars = ["Saab", "Volvo", "BMW"];
 cars[0] = "Opel";
