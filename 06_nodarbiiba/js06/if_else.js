@@ -18,7 +18,11 @@ if (hour < 18) {
    else {
     //greeting = "Good";
     greeting = greeting + "evening";
-  }
+  if(hour>22) {greeting = greeting + " (it actually is late evening :-))";
+} else {
+  greeting = greeting + " (it is not late evening yet :-))";}
+}
+  
 
   console.log(greeting);
   
