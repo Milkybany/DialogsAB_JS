@@ -24,4 +24,4 @@ if (hour < 18) {
   
 
 
-document.getElementById("demo_ifelse").innerHTML = greeting;
+document.getElementById("demo_if_else").innerHTML = greeting;
