@@ -20,7 +20,7 @@ heading_2.innerHTML = "Decimale";
 let heading_3 = document.createElement('th');
 heading_3.innerHTML = "Octal";
 let heading_4 =document.createElement('th');
-heading_4.innerHTML = "Octal";
+heading_4.innerHTML = "Hexadec";
 
 row_1.appendChild(heading_1);
 row_1.appendChild(heading_2);
@@ -32,28 +32,50 @@ thead.appendChild(row_1);
 // Creating and adding data to second row of the table
 let row_2 = document.createElement('tr');
 let row_2_data_1 = document.createElement('td');
-row_2_data_1.innerHTML = "1.";
+row_2_data_1.innerHTML = "0000";
 let row_2_data_2 = document.createElement('td');
-row_2_data_2.innerHTML = "James Clerk";
+row_2_data_2.innerHTML = "0";
 let row_2_data_3 = document.createElement('td');
-row_2_data_3.innerHTML = "Netflix";
+row_2_data_3.innerHTML = "0";
+let row_2_data_4 = document.createElement('td');
+row_2_data_4.innerHTML = "0";
 
 row_2.appendChild(row_2_data_1);
 row_2.appendChild(row_2_data_2);
 row_2.appendChild(row_2_data_3);
+row_2.appendChild(row_2_data_4);
 tbody.appendChild(row_2);
 
 
 // Creating and adding data to third row of the table
 let row_3 = document.createElement('tr');
 let row_3_data_1 = document.createElement('td');
-row_3_data_1.innerHTML = "2.";
+row_3_data_1.innerHTML = "0001";
 let row_3_data_2 = document.createElement('td');
-row_3_data_2.innerHTML = "Adam White";
+row_3_data_2.innerHTML = "1";
 let row_3_data_3 = document.createElement('td');
-row_3_data_3.innerHTML = "Microsoft";
+row_3_data_3.innerHTML = "1";
+let row_3_data_4 = document.createElement('td');
+row_3_data_4.innerHTML = "1";
 
 row_3.appendChild(row_3_data_1);
 row_3.appendChild(row_3_data_2);
 row_3.appendChild(row_3_data_3);
+row_3.appendChild(row_2_data_4);
 tbody.appendChild(row_3);
+
+let row_4 = document.createElement('tr');
+let row_4_data_1 = document.createElement('td');
+row_4_data_1.innerHTML = "0010";
+let row_4_data_2 = document.createElement('td');
+row_4_data_2.innerHTML = "2";
+let row_4_data_3 = document.createElement('td');
+row_4_data_3.innerHTML = "2";
+let row_4_data_4 = document.createElement('td');
+row_4_data_4.innerHTML = "2";
+
+row_4.appendChild(row_3_data_1);
+row_4.appendChild(row_3_data_2);
+row_4.appendChild(row_3_data_3);
+row_4.appendChild(row_2_data_4);
+tbody.appendChild(row_4);
