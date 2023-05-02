@@ -6,7 +6,7 @@ table.appendChild(thead);
 table.appendChild(tbody);
 
 // Adding the entire table to the body tag
-document.getElementById('body').appendChild(table);
+document.getElementById('demo').appendChild(table);
 
 
 
