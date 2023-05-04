@@ -5,7 +5,8 @@ for (let i = 0; i < 4; i++) {
 	
 	for (let i = 0; i < 31; i++) {
 		let td = document.createElement('td');
-		tr.appendChild(td);
+		td.textContent = 'x';
+        tr.appendChild(td);
 	}
 	
 	table.appendChild(tr);
