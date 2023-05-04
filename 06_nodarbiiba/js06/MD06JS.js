@@ -206,7 +206,7 @@ row_12.appendChild(row_12_data_4);
 tbody.appendChild(row_12);
 
 let row_13 = document.createElement('tr');
-let row_113_data_1 = document.createElement('td');
+let row_13_data_1 = document.createElement('td');
 row_13_data_1.innerHTML = "1011";
 let row_13_data_2 = document.createElement('td');
 row_13_data_2.innerHTML = "11";
