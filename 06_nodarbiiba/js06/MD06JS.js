@@ -9,9 +9,6 @@ table.appendChild(tbody);
 document.getElementById('demo').appendChild(table);
 
 
-
-
-
 let row_1 = document.createElement('tr');
 let heading_1 = document.createElement('th');
 heading_1.innerHTML = "Binary";
