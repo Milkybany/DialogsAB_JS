@@ -129,11 +129,11 @@ let row_8 = document.createElement('tr');
 let row_8_data_1 = document.createElement('td');
 row_8_data_1.innerHTML = "0110";
 let row_8_data_2 = document.createElement('td');
-row_8_data_2.innerHTML = "";
+row_8_data_2.innerHTML = "6";
 let row_8_data_3 = document.createElement('td');
-row_8_data_3.innerHTML = "";
+row_8_data_3.innerHTML = "6";
 let row_8_data_4 = document.createElement('td');
-row_8_data_4.innerHTML = "";
+row_8_data_4.innerHTML = "6";
 
 row_8.appendChild(row_8_data_1);
 row_8.appendChild(row_8_data_2);
@@ -141,15 +141,63 @@ row_8.appendChild(row_8_data_3);
 row_8.appendChild(row_8_data_4);
 tbody.appendChild(row_8);
 
-let row_8 = document.createElement('tr');
+let row_9 = document.createElement('tr');
+let row_9_data_1 = document.createElement('td');
+row_9_data_1.innerHTML = "0111";
+let row_9_data_2 = document.createElement('td');
+row_9_data_2.innerHTML = "7";
+let row_9_data_3 = document.createElement('td');
+row_9_data_3.innerHTML = "7";
+let row_9_data_4 = document.createElement('td');
+row_9_data_4.innerHTML = "7";
+
+row_9.appendChild(row_9_data_1);
+row_9.appendChild(row_9_data_2);
+row_9.appendChild(row_9_data_3);
+row_9.appendChild(row_9_data_4);
+tbody.appendChild(row_9);
+
+let row_10 = document.createElement('tr');
+let row_10_data_1 = document.createElement('td');
+row_10_data_1.innerHTML = "0";
+let row_10_data_2 = document.createElement('td');
+row_10_data_2.innerHTML = "8";
+let row_10_data_3 = document.createElement('td');
+row_10_data_3.innerHTML = "8";
+let row_10_data_4 = document.createElement('td');
+row_10_data_4.innerHTML = "8";
+
+row_10.appendChild(row_10_data_1);
+row_10.appendChild(row_10_data_2);
+row_10.appendChild(row_10_data_3);
+row_10.appendChild(row_10_data_4);
+tbody.appendChild(row_10);
+
+let row_11 = document.createElement('tr');
+let row_11_data_1 = document.createElement('td');
+row_11_data_1.innerHTML = "0";
+let row_11_data_2 = document.createElement('td');
+row_11_data_2.innerHTML = "9";
+let row_11_data_3 = document.createElement('td');
+row_11_data_3.innerHTML = "9";
+let row_11_data_4 = document.createElement('td');
+row_11_data_4.innerHTML = "9";
+
+row_11.appendChild(row_11_data_1);
+row_11.appendChild(row_11_data_2);
+row_11.appendChild(row_11_data_3);
+row_11.appendChild(row_11_data_4);
+tbody.appendChild(row_11);
+
+/*let row_8 = document.createElement('tr');
 let row_8_data_1 = document.createElement('td');
-row_8_data_1.innerHTML = "0111";
+row_8_data_1.innerHTML = "0";
 let row_8_data_2 = document.createElement('td');
-row_8_data_2.innerHTML = "";
+row_8_data_2.innerHTML = "10";
 let row_8_data_3 = document.createElement('td');
-row_8_data_3.innerHTML = "";
+row_8_data_3.innerHTML = "10";
 let row_8_data_4 = document.createElement('td');
-row_8_data_4.innerHTML = "";
+row_8_data_4.innerHTML = "10";
 
 row_8.appendChild(row_8_data_1);
 row_8.appendChild(row_8_data_2);
@@ -188,51 +236,4 @@ row_8.appendChild(row_8_data_2);
 row_8.appendChild(row_8_data_3);
 row_8.appendChild(row_8_data_4);
 tbody.appendChild(row_8);
-
-let row_8 = document.createElement('tr');
-let row_8_data_1 = document.createElement('td');
-row_8_data_1.innerHTML = "0";
-let row_8_data_2 = document.createElement('td');
-row_8_data_2.innerHTML = "";
-let row_8_data_3 = document.createElement('td');
-row_8_data_3.innerHTML = "";
-let row_8_data_4 = document.createElement('td');
-row_8_data_4.innerHTML = "";
-
-row_8.appendChild(row_8_data_1);
-row_8.appendChild(row_8_data_2);
-row_8.appendChild(row_8_data_3);
-row_8.appendChild(row_8_data_4);
-tbody.appendChild(row_8);
-
-let row_8 = document.createElement('tr');
-let row_8_data_1 = document.createElement('td');
-row_8_data_1.innerHTML = "0";
-let row_8_data_2 = document.createElement('td');
-row_8_data_2.innerHTML = "";
-let row_8_data_3 = document.createElement('td');
-row_8_data_3.innerHTML = "";
-let row_8_data_4 = document.createElement('td');
-row_8_data_4.innerHTML = "";
-
-row_8.appendChild(row_8_data_1);
-row_8.appendChild(row_8_data_2);
-row_8.appendChild(row_8_data_3);
-row_8.appendChild(row_8_data_4);
-tbody.appendChild(row_8);
-
-let row_8 = document.createElement('tr');
-let row_8_data_1 = document.createElement('td');
-row_8_data_1.innerHTML = "0";
-let row_8_data_2 = document.createElement('td');
-row_8_data_2.innerHTML = "";
-let row_8_data_3 = document.createElement('td');
-row_8_data_3.innerHTML = "";
-let row_8_data_4 = document.createElement('td');
-row_8_data_4.innerHTML = "";
-
-row_8.appendChild(row_8_data_1);
-row_8.appendChild(row_8_data_2);
-row_8.appendChild(row_8_data_3);
-row_8.appendChild(row_8_data_4);
-tbody.appendChild(row_8);
+*/
