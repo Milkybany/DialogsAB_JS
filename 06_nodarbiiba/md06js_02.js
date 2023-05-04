@@ -14,7 +14,7 @@ for (let i = 0; i < 4; i++) {
 
 let arr = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]];
 let table = document.querySelector('#table');
-
+document.getElementById('demo1').appendChild(table)
 for (let subArr of arr) {
 	let tr = document.createElement('tr');
 	
