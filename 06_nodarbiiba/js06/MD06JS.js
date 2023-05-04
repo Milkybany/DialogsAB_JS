@@ -58,7 +58,7 @@ row_3_data_4.innerHTML = "1";
 row_3.appendChild(row_3_data_1);
 row_3.appendChild(row_3_data_2);
 row_3.appendChild(row_3_data_3);
-row_3.appendChild(row_2_data_4);
+row_3.appendChild(row_3_data_4);
 tbody.appendChild(row_3);
 
 let row_4 = document.createElement('tr');
