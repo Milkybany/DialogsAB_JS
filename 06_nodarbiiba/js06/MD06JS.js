@@ -227,7 +227,7 @@ row_14_data_1.innerHTML = "1100";
 let row_14_data_2 = document.createElement('td');
 row_14_data_2.innerHTML = "12";
 let row_14_data_3 = document.createElement('td');
-row_14_data_3.innerHTML = 14";
+row_14_data_3.innerHTML = "14";
 let row_14_data_4 = document.createElement('td');
 row_14_data_4.innerHTML = "C";
 
