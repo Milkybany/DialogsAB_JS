@@ -211,7 +211,7 @@ row_13_data_1.innerHTML = "1011";
 let row_13_data_2 = document.createElement('td');
 row_13_data_2.innerHTML = "11";
 let row_13_data_3 = document.createElement('td');
-row_13_data_3.innerHTML = 13";
+row_13_data_3.innerHTML = "13";
 let row_13_data_4 = document.createElement('td');
 row_13_data_4.innerHTML = "B";
 
