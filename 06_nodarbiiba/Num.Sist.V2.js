@@ -1,4 +1,4 @@
-let arr = [[Binary, Octal, Decimal, Hex], 
+let arr = [['Binary', 'Octal', 'Decimal', 'Hex'], 
 [0, 0, 0, 0],
  [1, 1, 1, 1], 
  [10, 2, 2, 2],
