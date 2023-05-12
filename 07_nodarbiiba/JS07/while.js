@@ -1,5 +1,32 @@
 //console.log("Hello World!");
+//1. varians
+let text = "";
+let i = 1;
+while (i <= 20) {
+    if (i % 2 == 0)
+  text += "<br>" + i;
+  i++;
+}
+document.getElementById("count").innerHTML = text;
+
+//2. variants
+let text = "";
+let i = 1;
+while (i <= 20) {
+    if (i % 2 == 0)
+  text += "<br>" + i;
+  i = i + 2;
+}
+document.getElementById("count2").innerHTML = text;
+//katrai nākamajai vērtībai pieskaita +2
+
+
+
+
+
+
 //
+/*
 let text = "";
 let i = 1;
 while (i <= 20) {
@@ -11,9 +38,10 @@ while (i <= 20) {
   i++;
 }
 document.getElementById("demo_while").innerHTML = text;
+*/
 
-
-/*text = "";
+/*
+text = "";
 i = 1;
 while (i <= 200) {
     if (i < 10) {
@@ -25,4 +53,5 @@ while (i <= 200) {
     }
     i++; // i++; // i = i + 1 // 
   }
-document.getElementById("demo_while").innerHTML = text;*/
+document.getElementById("demo_while").innerHTML = text;
+*/
