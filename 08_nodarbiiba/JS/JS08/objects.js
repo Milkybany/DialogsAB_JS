@@ -18,7 +18,9 @@ const factorial = function fac(n) {
 
 const discrete_variable = 4;
 const array_example = ['a','b'];
-const function_example = function name_for_internal_use(x){return x*x;};
+const function_example = function name_for_internal_use(x) {
+  return x*x;
+};
 
 const car = {type:"Fiat", model:"500", color:"white"};
 
@@ -39,9 +41,18 @@ car_1.tipe ='Siat';
 console.log(car_1.tipe);
 console.log(car.tipe);
 
-consol person_1 = new Object();
+const person_1 = new Object();
 
 for (let i = 0; i < array_example.length; i++) consol.log(array_example[i]);
 
-for (array_example of array_example) console.log(array_example);
+for (array_element of array_example) console.log(array_element);
 
+for (array_element in array_example) console.log(array_element);
+for (array_element in array_example) console.log(array_example[array_element]);
+for (key in person) console.log(person[key]);//console.log(key);
+
+for (key in person) {
+    typeof(person[key]) == 'function' ? console.log(person[key]()) : console.log(person[key]);
+}
+
+//for (key of person) console.log(person[key]);//console.log(key);
