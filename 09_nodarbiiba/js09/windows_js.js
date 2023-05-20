@@ -68,6 +68,7 @@ let feedback = lang.toLowerCase() === 'javascript' ? `It's great!` :
     `It's ${lang}`;
 alert(feedback);
 */
+
 var timeoutID_1;
 var timeoutID_2;
 
@@ -88,7 +89,11 @@ function cancelAlert_2() {
     console.log(clearTimeout(timeoutID_2));
 }
 
-let intervalID = setInterval(callback, delay,[arg1, arg2,]);
+//intervals
+
+var intervalID_1;
+intervalID_1 = setInterval(console.log, 1000,['Viena sekunde no dzīves!']);
+console.log(intervalID_1);
 
 let intervalID;
  
