@@ -117,3 +117,23 @@ function stop() {
 function start() {
    intervalID = setInterval(toggleColor, 1000); 
 }
+
+
+urlParamsString = '?q=v%c4%81rds&s=0&g=5&r=1100';//location.search;
+urlParams = new URLSearchParams(urlParamsString);
+
+for (const [key, value] of urlParams) {
+    console.log(`${key}:${value}`);
+}
+
+for (const key of urlParams.keys()) {
+    console.log(key);
+}
+
+for (const value of urlParams.values()) {
+    console.log(value);
+}
+
+for (const entry of urlParams.entries()) {
+    console.log(entry);
+}
