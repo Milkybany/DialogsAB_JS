@@ -6,9 +6,8 @@
 3. Cookie mainīšana
 4. Cookie "dzīves laika" uzdošana (ja laiks nav uzdots - Session)
 5. Cookie izmantošana pēc pārlūka aizvēršanas, atvēršana
--------
-6. Cookie kodēšana
-7. Cookie dzēšana
+6. Cookie kodēšana (bet ne šifrēšana; piemēram, ā -> %C4%81)
+7. Cookie dzēšana(iztecējušā laika uzdošana)
 */
 /*
 var str = document.cookie;
@@ -47,7 +46,8 @@ function display() {
     if (cookie_expire_time_sec != undefined) {
       var expireTime = time + 1000 * cookie_expire_time_sec;
       now.setTime(expireTime);
-      document.cookie = cookie_name + "=" + cookie_value + ";expires=" + now.toUTCString() + ";path=/";
+      //document.cookie = cookie_name + "=" + cookie_value + ";expires=" + now.toUTCString() + ";path=/";
+      document.cookie = `${encodeURIComponent(cookie_name)}=${encodeURIComponent(cookie_value)};expires=${now.toUTCString()};path=/`;
     } else {
       document.cookie = cookie_name + "=" + cookie_value + ";path=/";
     }
