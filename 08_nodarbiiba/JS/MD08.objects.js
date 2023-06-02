@@ -76,14 +76,12 @@ const myObj = {
     {name:"Fiat", models:["500", "Panda"]}
   ]
 }
-
 for (let i in myObj.cars) {
   x += "<h2>" + myObj.cars[i].name + "</h2>";
   for (let j in myObj.cars[i].models) {
     x += myObj.cars[i].models[j] + "<br>";
   }
 }
-
 document.getElementById("demo6").innerHTML = x;
 
 //metodes
@@ -96,11 +94,10 @@ const person = {
       return this.firstName + " " + this.lastName;
     }
   };
-  
   document.getElementById("demo7").innerHTML = person.fullName();
 
   //Object.values()
-  const myArray = Object.values(person);
+const myArray = Object.values(person);
 document.getElementById("demo").innerHTML = myArray;
 
 

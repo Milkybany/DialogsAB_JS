@@ -15,7 +15,7 @@ const factorial = function fac(n) {
   
   console.log(factorial(3)); // 6
   */
-
+ 
 const discrete_variable = 4;
 const array_example = ['a','b'];
 const function_example = function name_for_internal_use(x) {
