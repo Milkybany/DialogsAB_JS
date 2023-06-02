@@ -14,17 +14,27 @@ window.showCounter();
 //showCounter()- funkcija
 
 console.log('window.innerWidth: ' + window.innerWidth);
-console.log('document.documentElement.clientWidth: ' + document.documentElement.clientWidth);
+console.log(
+    'document.documentElement.clientWidth: ' + 
+    document.documentElement.clientWidth
+    );
 console.log('document.body.clientWidth: ' + document.body.clientWidth);
-const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+const width = 
+  window.innerWidth ||
+  document.documentElement.clientWidth ||
+  document.body.clientWidth;
 console.log(`window.outerWidth: ${window.outerWidth}`);
 
-const height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;  
+const height = 
+    window.innerHeight ||
+    document.documentElement.clientHeight ||
+    document.body.clientHeight;  
 
 // loga atveršna un nomaiņa
 
 let features = 'height=600,width=800',
-    url = 'https://www.javascripttutorial.net/javascript-bom/javascript-window/';
+   // url = 'https://www.javascripttutorial.net/javascript-bom/javascript-window/';
+    url = "http://127.0.0.1:5500";
 
 let jsWindow = window.open(url, 'about', features);
 
