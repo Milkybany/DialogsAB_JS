@@ -23,6 +23,7 @@ console.log("Cookies vertība:" + str);
 
 
 // https://stackoverflow.com/questions/13154552/how-can-i-set-a-cookie-with-expire-time
+
 display();
 function display() { 
     var now = new Date();
