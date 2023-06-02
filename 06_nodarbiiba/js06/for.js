@@ -11,4 +11,6 @@ for (let i = 0; i < cars.length; i++) {
  console.log("text mainīgā saturs pēc izmaiņām:"+ "\n"+ text + "\n\n");
 }
 
+// consol.log(i);
+
 document.getElementById("demo_for").innerHTML = text;
