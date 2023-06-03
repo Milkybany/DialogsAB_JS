@@ -124,3 +124,35 @@ mealsEl.addEventListener('click', e => {
     getMealById(mealID);
   }
 });
+
+/*<img width="350" height="250" src="https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg" alt="Neceptā „Austiņu” – krēma kūka"></img>
+<div class="grid two-fifth">
+						<h2>Sastāvdaļas</h2>
+						<div id="">
+<ul>
+<li>600 g cepumi „Austiņas”</li>
+<li>600 ml piena</li>
+<li>3 olas</li>
+<li>100 g cukura</li>
+<li>2 ēdamkarotes cietes</li>
+<li>2 ēdamkarotes miltu</li>
+<li>1 paciņa vaniļas cukura</li>
+<li>100 g saldkrējuma sviesta</li>
+</ul>
+</div>
+
+					</div>
+          <div class="grid three-fifth last">
+						<h2>Pagatavošana</h2>
+						<div id=""><ol>
+<li>Krēms: Ar putojamo slotiņu samaisa olas un cukuru.</li>
+<li>Pakāpeniski pievieno miltus un cieti un, nepārtraucot putošanu, arī pienu.</li>
+<li>Masu pārliek nelielā katliņā un karsē un nelielas uguns, nepārtraukti maisot.</li>
+<li>Kad krēms sāk vārīties, pievieno sviestu un rūpīgi visu samaisa.</li>
+<li>Pārklāj ar pārtikas plēvi un novieto atdzesēties.</li>
+<li>Sevis izvēlētā kūkas formā, klāj kārtu ar cepumiem, pārklāj to ar krēmu.</li>
+<li>Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai.</li>
+<li>Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.</li>
+</ol></div>
+					</div>
+          */
