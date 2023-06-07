@@ -4,7 +4,7 @@ const search = document.getElementById('search'),
   mealsEl = document.getElementById('meals'),
   resultHeading = document.getElementById('result-heading'),
   single_mealEl = document.getElementById('single-meal');
-
+const cake = document.getElementById('cake');
 // Search meal and fetch from API
 function searchMeal(e) {
   e.preventDefault();
@@ -125,10 +125,16 @@ mealsEl.addEventListener('click', e => {
   }
 });
 
-/*<img width="350" height="250" src="https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg" alt="Neceptā „Austiņu” – krēma kūka"></img>
-<div class="grid two-fifth">
-						<h2>Sastāvdaļas</h2>
-						<div id="">
+/*function getCakeByID(cake); {
+
+ cake.innerHTML = `
+    <div class="cake">
+      <h1>Napoleon</h1>
+      <img width="350" height="250" src=""https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg" " 
+      alt=""Neceptā „Austiņu” – krēma kūka">" />
+      <div class=""grid two-fifth">
+      <h2>Sastāvdaļas</h2>
+      <div id="">
 <ul>
 <li>600 g cepumi „Austiņas”</li>
 <li>600 ml piena</li>
@@ -141,10 +147,10 @@ mealsEl.addEventListener('click', e => {
 </ul>
 </div>
 
-					</div>
-          <div class="grid three-fifth last">
-						<h2>Pagatavošana</h2>
-						<div id=""><ol>
+    </div>
+    <div class="grid three-fifth last">
+      <h2>Pagatavošana</h2>
+      <div id=""><ol>
 <li>Krēms: Ar putojamo slotiņu samaisa olas un cukuru.</li>
 <li>Pakāpeniski pievieno miltus un cieti un, nepārtraucot putošanu, arī pienu.</li>
 <li>Masu pārliek nelielā katliņā un karsē un nelielas uguns, nepārtraukti maisot.</li>
@@ -154,5 +160,9 @@ mealsEl.addEventListener('click', e => {
 <li>Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai.</li>
 <li>Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.</li>
 </ol></div>
-					</div>
-          */
+    </div>
+    </div>
+  `;
+}
+*/
+          
