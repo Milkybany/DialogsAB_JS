@@ -4,7 +4,7 @@ const search = document.getElementById('search'),
   mealsEl = document.getElementById('meals'),
   resultHeading = document.getElementById('result-heading'),
   single_mealEl = document.getElementById('single-meal');
-const cake = document.getElementById('cake');
+
 // Search meal and fetch from API
 function searchMeal(e) {
   e.preventDefault();
@@ -125,16 +125,28 @@ mealsEl.addEventListener('click', e => {
   }
 });
 
-/*function getCakeByID(cake); {
+//uzlabojums 
+frmButton.myButton.onClick=onClickCallBck;
 
- cake.innerHTML = `
-    <div class="cake">
-      <h1>Napoleon</h1>
-      <img width="350" height="250" src=""https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg" " 
-      alt=""Neceptā „Austiņu” – krēma kūka">" />
-      <div class=""grid two-fifth">
+function onClickCallBck(button_1){
+function createMenuItem(name) {
+  let li = document.createElement('li');
+  li.textContent = name;
+  return li;
+}
+// get the ul#menu
+const menu = document.querySelector('#menu');
+// add menu item
+menu.appendChild(createMenuItem('Napoleon'));
+menu.appendChild(createMenuItem(''));
+menu.appendChild(createMenuItem(''));};
+
+ /*     <h1>Napoleon</h1>
+      <img width="350" height="250" src="https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg " 
+      alt="Neceptā „Austiņu” – krēma kūka"> </img>
+      
       <h2>Sastāvdaļas</h2>
-      <div id="">
+      
 <ul>
 <li>600 g cepumi „Austiņas”</li>
 <li>600 ml piena</li>
@@ -145,12 +157,11 @@ mealsEl.addEventListener('click', e => {
 <li>1 paciņa vaniļas cukura</li>
 <li>100 g saldkrējuma sviesta</li>
 </ul>
-</div>
 
-    </div>
-    <div class="grid three-fifth last">
+
+    
       <h2>Pagatavošana</h2>
-      <div id=""><ol>
+     
 <li>Krēms: Ar putojamo slotiņu samaisa olas un cukuru.</li>
 <li>Pakāpeniski pievieno miltus un cieti un, nepārtraucot putošanu, arī pienu.</li>
 <li>Masu pārliek nelielā katliņā un karsē un nelielas uguns, nepārtraukti maisot.</li>
@@ -160,9 +171,7 @@ mealsEl.addEventListener('click', e => {
 <li>Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai.</li>
 <li>Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.</li>
 </ol></div>
-    </div>
-    </div>
-  `;
+  
+    
 }
-*/
-          
+ */         
