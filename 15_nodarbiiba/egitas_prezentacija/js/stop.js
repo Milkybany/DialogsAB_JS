@@ -1,0 +1,3 @@
+function haltFunction () {
+    clearInterval(currentYearTimeUP);
+}
