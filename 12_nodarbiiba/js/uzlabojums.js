@@ -18,9 +18,27 @@ listItem.appendChild(createMenuItem(''));
 // get the ul#menu
 function button_onclickk(){const menu = document.querySelector('#menu');
 // add menu item
-menu.appendChild(createMenuItem('Home'));
-menu.appendChild(createMenuItem('Services'));
-menu.appendChild(createMenuItem('About Us'));};
+menu.appendChild(createMenuItem('Napoleons no austiņam'));
+menu.appendChild(createMenuItem('Sastāvdaļas'));
+menu.appendChild(createMenuItem('600 g cepumi „Austiņas'));
+menu.appendChild(createMenuItem('600 ml piena'));
+menu.appendChild(createMenuItem('3 olas'));
+menu.appendChild(createMenuItem('100 g cukura'));
+menu.appendChild(createMenuItem('2 ēdamkarotes cietes'));
+menu.appendChild(createMenuItem('2 ēdamkarotes miltu'));
+menu.appendChild(createMenuItem('1 paciņa vaniļas cukura'));
+menu.appendChild(createMenuItem('100 g saldkrējuma sviesta'));
+menu.appendChild(createMenuItem(' Pagatavošana '));
+menu.appendChild(createMenuItem(' Krēms: Ar putojamo slotiņu samaisa olas un cukuru.'));
+menu.appendChild(createMenuItem('Pakāpeniski pievieno miltus un cieti un, nepārtraucot putošanu, arī pienu.'));
+menu.appendChild(createMenuItem('Masu pārliek nelielā katliņā un karsē un nelielas uguns, nepārtraukti maisot.'));
+menu.appendChild(createMenuItem('Kad krēms sāk vārīties, pievieno sviestu un rūpīgi visu samaisa.'));
+menu.appendChild(createMenuItem('Pārklāj ar pārtikas plēvi un novieto atdzesēties.'));
+menu.appendChild(createMenuItem('Sevis izvēlētā kūkas formā, klāj kārtu ar cepumiem, pārklāj to ar krēmu.'));
+menu.appendChild(createMenuItem('Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai.'));
+menu.appendChild(createMenuItem('Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.'));
+menu.appendChild(createMenuItem('  '));
+};
 
 
  /*     <h1>Napoleon</h1>
