@@ -1,6 +1,9 @@
+console.log(fireworks);
 var fireworks=document.getElementById("fireworks");
+console.log(fireworks);
 
 function fireworksTime(){
+    console.log(fireworks);
     if (fireworks==0) {
         
     }
