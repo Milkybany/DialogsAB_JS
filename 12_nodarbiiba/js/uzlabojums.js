@@ -19,6 +19,7 @@ listItem.appendChild(createMenuItem(''));
 function button_onclickk(){const menu = document.querySelector('#menu');
 // add menu item
 menu.appendChild(createMenuItem('Napoleons no austiņam'));
+menu.appendChild(createMenuItem('  '));
 menu.appendChild(createMenuItem('Sastāvdaļas'));
 menu.appendChild(createMenuItem('600 g cepumi „Austiņas'));
 menu.appendChild(createMenuItem('600 ml piena'));
@@ -37,16 +38,21 @@ menu.appendChild(createMenuItem('Pārklāj ar pārtikas plēvi un novieto atdzes
 menu.appendChild(createMenuItem('Sevis izvēlētā kūkas formā, klāj kārtu ar cepumiem, pārklāj to ar krēmu.'));
 menu.appendChild(createMenuItem('Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai.'));
 menu.appendChild(createMenuItem('Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.'));
-menu.appendChild(createMenuItem('  '));
+
 };
 
 
- /*     <h1>Napoleon</h1>
-      <img width="350" height="250" src="https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg " 
-      alt="Neceptā „Austiņu” – krēma kūka"> </img>
-      
-      <h2>Sastāvdaļas</h2>
-      
+ /* 
+ <div class="grid one-half">		
+	<div class="post-thumbnail">
+			<img width="350" height="250" 
+            src="https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg"
+             alt="Neceptā „Austiņu” – krēma kūka"></img>		
+    </div>	
+</div> 
+ <div class="grid two-fifth">
+		<h2>Sastāvdaļas</h2>
+	<div id="">
 <ul>
 <li>600 g cepumi „Austiņas”</li>
 <li>600 ml piena</li>
@@ -57,11 +63,11 @@ menu.appendChild(createMenuItem('  '));
 <li>1 paciņa vaniļas cukura</li>
 <li>100 g saldkrējuma sviesta</li>
 </ul>
-
-
-    
-    //  <h2>Pagatavošana</h2>
-     
+     </div>
+</div>
+<div class="grid three-fifth last">
+		<h2>Pagatavošana</h2>
+    <div id=""><ol>
 <li>Krēms: Ar putojamo slotiņu samaisa olas un cukuru.</li>
 <li>Pakāpeniski pievieno miltus un cieti un, nepārtraucot putošanu, arī pienu.</li>
 <li>Masu pārliek nelielā katliņā un karsē un nelielas uguns, nepārtraukti maisot.</li>
@@ -70,4 +76,9 @@ menu.appendChild(createMenuItem('  '));
 <li>Sevis izvēlētā kūkas formā, klāj kārtu ar cepumiem, pārklāj to ar krēmu.</li>
 <li>Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai.</li>
 <li>Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.</li>
-</ol>*/
+</ol></div>
+	</div>    
+    
+    
+    
+    */
