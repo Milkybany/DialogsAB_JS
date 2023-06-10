@@ -2,7 +2,7 @@ const daysUP = document.getElementById('daysUP');
 const hoursUP = document.getElementById('hoursUP');
 const minutesUP = document.getElementById('minutesUP');
 const secondsUP = document.getElementById('secondsUP');
-const countUP = document.getElementById('countUP');
+//const countUP = document.getElementById('countUP');
 const yearUP = document.getElementById('yearUP');
 const loadingUP = document.getElementById('loadingUP');
 

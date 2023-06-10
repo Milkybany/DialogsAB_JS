@@ -1,6 +1,24 @@
-const days = document.getElementById('days');
-const hours = document.getElementById('hours');
-const minutes = document.getElementById('minutes');
+const count = document.getElementById('count');
+const countUP = document.getElementById('countUP');
+const poga = document.getElementById('poga');
+
+poga.addEventListener("click", function() {
+  if(countUP.querySelector('#poga')!==null){
+  countUP.removeChild(countUP.lastElementChild);
+  count.append(poga);
+  poga.innerHTML = "Time backward";
+  count.style.display = 'flex';
+  countUP.style.display = 'none';
+}
+  else{
+    count.removeChild(count.lastElementChild);
+    countUP.append(poga);
+    poga.innerHTML = "Time forward";
+    count.style.display = 'none';
+    countUP.style.display = 'flex';
+    }
+});
+
 const seconds = document.getElementById('seconds');
 const countdown = document.getElementById('countdown');
 const year = document.getElementById('year');
