@@ -126,20 +126,20 @@ mealsEl.addEventListener('click', e => {
 });
 
 //uzlabojums 
-frmButton.myButton.onClick=onClickCallBck;
+var button = document.getElementById("myButton");
+var list = document.getElementById("myList");
+button.addEventListener("clikc", function(){
+var listItem = document.createElement("li");
+listItem.textContent = "New list item";
+list.appendChild(listItem);
+});
 
-function onClickCallBck(button_1){
-function createMenuItem(name) {
-  let li = document.createElement('li');
-  li.textContent = name;
-  return li;
-}
 // get the ul#menu
-const menu = document.querySelector('#menu');
+//const menu = document.querySelector('#menu');
 // add menu item
-menu.appendChild(createMenuItem('Napoleon'));
-menu.appendChild(createMenuItem(''));
-menu.appendChild(createMenuItem(''));};
+listItem.appendChild(createMenuItem('Napoleon'));
+listItem.appendChild(createMenuItem(''));
+listItem.appendChild(createMenuItem(''));
 
  /*     <h1>Napoleon</h1>
       <img width="350" height="250" src="https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg " 
@@ -160,7 +160,7 @@ menu.appendChild(createMenuItem(''));};
 
 
     
-      <h2>Pagatavošana</h2>
+    //  <h2>Pagatavošana</h2>
      
 <li>Krēms: Ar putojamo slotiņu samaisa olas un cukuru.</li>
 <li>Pakāpeniski pievieno miltus un cieti un, nepārtraucot putošanu, arī pienu.</li>
@@ -170,8 +170,5 @@ menu.appendChild(createMenuItem(''));};
 <li>Sevis izvēlētā kūkas formā, klāj kārtu ar cepumiem, pārklāj to ar krēmu.</li>
 <li>Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai.</li>
 <li>Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.</li>
-</ol></div>
-  
-    
-}
- */         
+</ol>
+      
