@@ -1,3 +1,5 @@
+var flag = true;
+
 const rulesBtn = document.getElementById('rules-btn');
 const closeBtn = document.getElementById('close-btn');
 const rules = document.getElementById('rules');
@@ -184,6 +186,7 @@ function draw() {
 
 // Update canvas drawing and animation
 function update() {
+  if (flag == true){
   movePaddle();
   moveSquare();
 
@@ -192,7 +195,10 @@ function update() {
 
   requestAnimationFrame(update);
 }
-
+else {
+  setTimeout(update, 200);
+}
+}
 update();
 
 // Keydown event

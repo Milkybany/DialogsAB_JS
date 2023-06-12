@@ -10,6 +10,9 @@
   <body>
     <h1>Breakout!</h1>
     <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+    <button class="btn play-btn" onclick="myPlayFunction()">Play</button>
+    <button class="btn pause-btn" onclick="myPauseFunction()">Pause</button>
+    
     <div id="rules" class="rules">
       <h2>How To Play:</h2>
       <p>
@@ -22,8 +25,7 @@
     
     <canvas id="canvas" width="800" height="600"></canvas>
 
-    <button onclick="myPlayFunction()">Play</button>
-    <button onclick="myPauseFunction()">Pause</button>
+    
 
     <script src="js/pause.js"></script>
     <script src="js/script.js"></script>
