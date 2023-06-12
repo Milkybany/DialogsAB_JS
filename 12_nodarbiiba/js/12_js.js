@@ -79,15 +79,28 @@ function getConstantMeal() {
   resultHeading.innerHTML = '';
 
   const meal = {};
-  meal[`strIngredient1`] = "a";
-  meal[`strMeasure1`] = "1 karote";
-  meal[`strIngredient2`] = "b";
-  meal[`strMeasure2`] = "2 karotes";
-  meal[`strMeal`] = 'Ēdiens';
+  meal[`strIngredient1`] = "cepumi „Austiņas";
+  meal[`strMeasure1`] = "600 g";
+  meal[`strIngredient2`] = "piena";
+  meal[`strMeasure2`] = "600 ml";
+  meal[`strIngredient3`] = "olas";
+  meal[`strMeasure3`] = "3";
+  meal[`strIngredient4`] = "cukura";
+  meal[`strMeasure4`] = "100 g";
+  meal[`strIngredient5`] = "cietes";
+  meal[`strMeasure5`] = "2 ēdamkarotes";
+  meal[`strIngredient6`] = "milti";
+  meal[`strMeasure6`] = "2 ēdamkarotes";
+  meal[`strIngredient7`] = "vaniļas cukura";
+  meal[`strMeasure7`] = "1 paciņa";
+  meal[`strIngredient8`] = "saldkrējuma sviesta";
+  meal[`strMeasure8`] = "100 g";
+  meal[`strMeal`] = 'Slinkais Napoleons';
   meal[`strMealThumb`] = "https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg";
-  meal[`strCategory`] = "Gaļa";
+  meal[`strCategory`] = "kūka";
   meal[`strArea`] = "Latvija";
-  meal[`strInstructions`] = "Dari pats!";
+  meal[`strInstructions`] = "Pagatavošana       Krēms - Ar putojamo slotiņu samaisa olas un cukuru. Pakāpeniski pievieno miltus un cieti un, nepārtraucot putošanu, arī pienu. Masu pārliek nelielā katliņā un karsē un nelielas uguns, nepārtraukti maisot. Kad krēms sāk vārīties, pievieno sviestu un rūpīgi visu samaisa. Pārklāj ar pārtikas plēvi un novieto atdzesēties.Sevis izvēlētā kūkas formā, klāj kārtu ar cepumiem, pārklāj to ar krēmu. Darbības atkārto līdz krēms un cepumi izlikti, atstājot nedaudz cepumu dekorēšanai un krēma kūkas virsmas un malu apziešanai. Kūku dekorē pēc pašu gaumes un ievieto ledusskapī uz&nbsp; 2 - 4 stundām.";
+ 
 
   addMealToDOM(meal);
 }
