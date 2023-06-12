@@ -3,7 +3,7 @@
   }
   
   body {
-    background: #2d2013;
+    background: #f1bf8e;
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -45,7 +45,8 @@
     border-bottom-right-radius: 4px;
   }
   
-  .random-btn {
+  /*.random-btn {*/
+    .btn {
     cursor: pointer;
     margin-left: 10px;
     border-top-right-radius: 4px;

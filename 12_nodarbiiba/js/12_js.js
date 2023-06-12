@@ -1,6 +1,7 @@
 const search = document.getElementById('search'),
   submit = document.getElementById('submit'),
   random = document.getElementById('random'),
+  receipt = document.getElementById('receipt'),
   mealsEl = document.getElementById('meals'),
   resultHeading = document.getElementById('result-heading'),
   single_mealEl = document.getElementById('single-meal');
@@ -68,10 +69,29 @@ function getRandomMeal() {
     .then(res => res.json())
     .then(data => {
       const meal = data.meals[0];
-
+      console.log(meal);
       addMealToDOM(meal);
     });
 }
+
+function getConstantMeal() {
+  mealsEl.innerHTML = '';
+  resultHeading.innerHTML = '';
+
+  const meal = {};
+  meal[`strIngredient1`] = "a";
+  meal[`strMeasure1`] = "1 karote";
+  meal[`strIngredient2`] = "b";
+  meal[`strMeasure2`] = "2 karotes";
+  meal[`strMeal`] = 'Ēdiens';
+  meal[`strMealThumb`] = "https://media.gardedis.lv/cache/61/13/6113365703dd87434310eb52d8c80072.jpg";
+  meal[`strCategory`] = "Gaļa";
+  meal[`strArea`] = "Latvija";
+  meal[`strInstructions`] = "Dari pats!";
+
+  addMealToDOM(meal);
+}
+
 
 // Add meal to DOM
 function addMealToDOM(meal) {
@@ -109,6 +129,7 @@ function addMealToDOM(meal) {
 // Event listeners
 submit.addEventListener('submit', searchMeal);
 random.addEventListener('click', getRandomMeal);
+receipt.addEventListener('click', getConstantMeal);
 
 mealsEl.addEventListener('click', e => {
   const mealInfo = e.path.find(item => {
